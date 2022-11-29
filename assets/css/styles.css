@@ -1,0 +1,7 @@
+.bg-blue{
+    background-color:rgb(17, 17, 125);
+}
+
+.list-group{
+    --bs-list-group-bg:transparent;
+}
