@@ -23,6 +23,13 @@
  h1.intro{
     padding-top:15% ;
     font-size:4rem ;
-}
+ }
+ .progress-bar{
+    width:auto;
+    height: 10vh;
+ }
+ .colorPastel{
+    background-color: rgb(212, 176, 246);
+ }
 
  
