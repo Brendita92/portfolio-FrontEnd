@@ -12,28 +12,27 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-blue">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-             <img src="/assets/img/APLogo-20-20.png" alt="Logo Argentina Programa" width="100" height="74" >
-            </a>
-            <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><a href="https://www.facebook.com/brenda.machuca.50/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-white"></i></a></li>
-                <li class="list-group-item"><a href="https://www.instagram.com/machucabrenda/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white"></i></a></li>
-                <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i class="fa-brands
-                 fa-linkedin fa-2x text-white"></i></a></li>
-                <li class="list-group-item"> 
-                    <!-- Button trigger modal -->
-                    <!--boton que abre el login-->
-                     <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-user-clock fa-2x text-white">
-                     </i>
-                </li>
-            </ul>
-        </div>
-     </nav>
-    
+  <nav class="navbar navbar-expand-lg bg-blue">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/indx.html">
+         <img src="/assets/img/APLogo-20-20.png" alt="Logo Argentina Programa" width="100" height="74" >
+        </a>   
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"><a href="https://www.facebook.com/brenda.machuca.50/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-white"></i></a></li>
+            <li class="list-group-item"><a href="https://www.instagram.com/machucabrenda/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white"></i></a></li>
+            <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i class="fa-brands
+             fa-linkedin fa-2x text-white"></i></a></li>
+            <li class="list-group-item"> 
+                
+                <!--envia al login-->
+                 <a href="/login.html"><i class="fa-solid fa-user-clock fa-2x text-white"></i></a>
+            </li>
+        </ul>
+    </div>
+ </nav>
+     <main class="colorPastel">
      <!--seccion banner -->
-    <main class="color Pastel">
+    
     <section class="banner">
      <h1 class="text-white text-center intro">
      Hola! Soy<br> Brenda Analia Machuca 
@@ -42,7 +41,7 @@
     <!--presentacion-->
 
     <section class="presentacion mt-5 ">
-      <h2 class="text-center"><span>ACERCA DE MI</span></h2>
+      <h2 class="text-center"><span><u>ACERCA DE MI</u></span></h2>
       <div class="container text-center">
         <div class="row">
           <div class="col-3">
@@ -57,7 +56,7 @@
     </section>
      <!--experiencia-->
      <section class="experiencia mt-5">
-      <h2 class="text-center"><span>EXPERIENCIA LABORAL</span></h2>
+      <h2 class="text-center"><span><u>EXPERIENCIA LABORAL</u></span></h2>
       <div class="container text-center">
         <div class="row">
           <div class="col-6 mt-2">
@@ -73,7 +72,7 @@
   </section>
   <!--educacion-->
   <section class="educacion mt-5">
-   <h2 class="text-center"><span>EDUCACION</span></h2>
+   <h2 class="text-center"><span><u>EDUCACION</u></span></h2>
    <div class="container text-left">
      <div class="row">
        <div class="col-6 mt-2">
@@ -98,7 +97,7 @@
  </section>
   <!--Hard & soft skills-->
   <section class="container-fluid mt-5">
-    <h2 class="text-center"><span>HARD & SOFT SKILLS</span></h2>
+    <h2 class="text-center"><span><u>HARD & SOFT SKILLS</u></span></h2>
     <div class="container text-center">
       <div class="row">
         <div class="col-10 mt-4">
@@ -144,11 +143,9 @@
                      <div class="mb-3">
                    <label for="exampleInputPassword1" class="form-label">contraseña</label>
                  <input type="password" class="form-control" id="exampleInputPassword1">
-               </div>
-             
+               </div> 
             </form>
          </div>
-      </main> 
         <div class="modal-footer">
           <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
         </div>
@@ -156,11 +153,13 @@
     </div>
   </div>
     
-
-
-
-
-
+    <!--FOOTER-->
+    <footer class="bg-opacity-25 text-black  text-cente fs-6"> 
+      <div class="pt-3">
+        <p>&copy Copyright Brenda Analia Machuca - 2022</p>
+      </div>
+    </footer>
+  </main> 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
